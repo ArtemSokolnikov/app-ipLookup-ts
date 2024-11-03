@@ -22,7 +22,7 @@ Start the docker-compose
     docker-compose up --build
     ```
 A proxy is used here, and If you want to run the application without using Docker Compose,
-all you need to do is change the proxy script to http://localhost:5000.
+all you need to do is change the proxy script to http://localhost:5000 in './client/package.json'
 ## Usage
 1. Open your browser and navigate to http://localhost:3000.
 2. Start checking your IP!
